@@ -1,2 +1,2 @@
 # LLM-Practice
-Practice for HugginFace and Andrej Karpathy LLM videos
+Practice for HuggingFace and Andrej Karpathy LLM videos
