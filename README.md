@@ -1,2 +1,2 @@
 # LLM-Practice
-Practice for Andrej Karpathy LLM videos
+Practice for AI Study Plan
