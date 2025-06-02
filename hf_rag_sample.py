@@ -48,9 +48,10 @@ print("Retrieval")
 for chunk, similarity in retrieved_knwldge:
    print(f' - (similarity: {similarity:.2f}) {chunk}')
 
-instruction_prompt = f'''Use only the  following pieces of context to answer the question.
-{'\n'.join([f' - {chunk}' for chunk, similarity in retrieved_knwldge])}
-'''
+instruction_prompt = (
+   "Use only the  following pieces of context to answer the question." +
+   '\n'.join([f' - {chunk}' for chunk, similarity in retrieved_knwldge])
+)
 
 #chat
 stream = ollama.chat(
